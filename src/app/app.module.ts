@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeadquatersComponent } from './headquaters/headquaters.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { NavigationComponent } from './navigation/navigation.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync('noop')
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
