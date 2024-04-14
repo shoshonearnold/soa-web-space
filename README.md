@@ -1,6 +1,6 @@
-# ShoshoneWebsiteV2
+# Shoshone's Web Space
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
+My professional space to showcase all things me += tech :]
 
 ## Development server
 
